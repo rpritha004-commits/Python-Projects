@@ -1,0 +1,6 @@
+print("EXPENSE TRACKER")
+food = int(input("Food expense: "))
+travel = int(input("Travel expense: "))
+other = int(input("Other expense: "))
+total = food + travel + other
+print("\nTotal Expense =", total)
