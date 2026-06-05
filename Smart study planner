@@ -1,0 +1,10 @@
+print("SMART STUDY PLANNER")
+subject1 = input("Enter first subject: ")
+subject2 = input("Enter second subject: ")
+subject3 = input("Enter third subject: ")
+hours = int(input("Enter total study hours: "))
+study_time = hours / 3
+print("\nToday's Study Plan")
+print(subject1, "-", study_time, "hours")
+print(subject2, "-", study_time, "hours")
+print(subject3, "-", study_time, "hours")
